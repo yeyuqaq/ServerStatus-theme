@@ -5,7 +5,7 @@ import svgLoader from 'vite-svg-loader'
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd())
-  const serverUrl = env.VITE_SERVER_URL
+  const serverUrl = "http://154.201.90.189:8080"
 
   return {
     appType: 'mpa',
